@@ -1,11 +1,25 @@
 import streamlit as st
 
-# Set page config
 st.set_page_config(
     page_title="Download ECE Lab Companion App",
     page_icon="📱",
     layout="wide"
 )
+
+
+page_bg_img = '''
+
+<style> 
+[data-testid="stHeader"] {
+background-color: white;
+}
+
+</style
+
+'''
+st.markdown(page_bg_img,unsafe_allow_html =True)
+# Set page config
+
 
 
 
@@ -57,17 +71,17 @@ st.markdown("""
         background-color: #0056b3;  /* Darker blue on hover */
     }
     .feature-box {
-        background-color: #ADD8E6;
+        background-color: #F0F8FF;
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
         margin-bottom: 20px;
     }
     h1, h2, h3 {
-        color: white;
+        color: #2C3E50;
     }
     .footer-text {
-        color: white;                 /* Set footer text color to black */
+        color: black;                 /* Set footer text color to black */
     }
     .warning-text {
         color: red;                  /* Change to the desired color for the warning */
