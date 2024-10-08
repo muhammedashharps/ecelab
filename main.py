@@ -57,7 +57,7 @@ st.markdown("""
         background-color: #0056b3;  /* Darker blue on hover */
     }
     .feature-box {
-        background-color: blue;
+        background-color: #007BFF;
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
