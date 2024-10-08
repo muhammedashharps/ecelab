@@ -64,10 +64,10 @@ st.markdown("""
         margin-bottom: 20px;
     }
     h1, h2, h3 {
-        color: #2C3E50;
+        color: white;
     }
     .footer-text {
-        color: black;                 /* Set footer text color to black */
+        color: white;                 /* Set footer text color to black */
     }
     .warning-text {
         color: red;                  /* Change to the desired color for the warning */
